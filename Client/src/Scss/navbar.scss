@@ -1,0 +1,17 @@
+.menu
+{
+    background-image: url(../Img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+    aspect-ratio: 1000/400;
+    float: right;
+
+
+    .nav
+    {
+        height: 4rem;
+        width: 900px;
+        float: right;
+    }
+}

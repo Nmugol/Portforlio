@@ -1,0 +1,26 @@
+.blob_content
+{
+    width: 100%;
+
+    .blob
+    {
+        background-image: url(../Img/blob.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 700px;
+        aspect-ratio: 700/700;
+        float: left;
+    }
+
+    .text
+    {
+        float: left;
+        height: 700px;
+        width: 200px;
+    }
+
+    .clear
+    {
+        clear: both;
+    }
+}

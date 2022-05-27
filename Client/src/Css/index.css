@@ -1,0 +1,33 @@
+.menu {
+  background-image: url(../Img/Menu.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+  aspect-ratio: 1000/400;
+  float: right; }
+  .menu .nav {
+    height: 4rem;
+    width: 900px;
+    float: right; }
+
+.blob_content {
+  width: 100%; }
+  .blob_content .blob {
+    background-image: url(../Img/blob.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 700px;
+    aspect-ratio: 700/700;
+    float: left; }
+  .blob_content .text {
+    float: left;
+    height: 700px;
+    width: 200px; }
+  .blob_content .clear {
+    clear: both; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=index.css.map */
