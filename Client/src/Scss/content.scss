@@ -1,26 +1,26 @@
-.blob_content
+@import "./variable.scss";
+
+.box
 {
-    width: 100%;
+    position: absolute;
+    top: 7rem;
 
-    .blob
+    .sep
     {
-        background-image: url(../Img/blob.svg);
+        aspect-ratio: 1920/787;
+        background-image: url(../Img/sep_content.svg);
         background-repeat: no-repeat;
-        background-position: left;
-        width: 700px;
-        aspect-ratio: 700/700;
-        float: left;
+        background-position: center;
+        width: 100%;
+        height: 787px;
     }
 
-    .text
-    {
-        float: left;
-        height: 700px;
-        width: 200px;
-    }
+    
+}
 
-    .clear
-    {
-        clear: both;
-    }
+.content
+{
+    background-color: $color1;
+    width: 100%;
+    height: 20rem;
 }

@@ -2,10 +2,9 @@
 
 const Content = () => {
     return (
-        <div className="blob_content">
-            <div className="clear"></div>
-            <div className="blob"></div>
-            <div className="text"></div>
+        <div className="box">
+            <div className="sep"></div>
+            <div className="content"></div>
         </div>
     );
 }
