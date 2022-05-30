@@ -11,24 +11,35 @@
     float: right; }
 
 .box {
-  position: absolute;
-  top: 7rem; }
-  .box .sep {
-    aspect-ratio: 1920/787;
-    background-image: url(../Img/sep_content.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 787px; }
+  position: relative;
+  top: 6rem; }
+
+.sep {
+  aspect-ratio: 1920/787;
+  background-image: url(../Img/sep_content.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 787px; }
 
 .content {
   background-color: #fc741a;
-  width: 100%;
-  height: 20rem; }
+  display: flex;
+  position: relative;
+  top: -1px; }
+
+.project_box {
+  margin: 0 auto;
+  width: 1000px; }
+
+.project_img, .project_text {
+  height: 500px;
+  width: 500px;
+  background-color: green;
+  float: left; }
 
 body {
   margin: 0;
-  padding: 0;
-  overflow: hidden; }
+  padding: 0; }
 
 /*# sourceMappingURL=index.css.map */
